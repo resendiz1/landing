@@ -1,0 +1,255 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Great+Vibes&display=swap" rel="stylesheet">');
+
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.comics_sans {
+    font-family: 'Comic Sans MS';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.arvo-regular {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+/* Fonts */
+
+
+
+.banner{
+    background-image: url('/img/banner12.png');
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: top; /* Centra la imagen en el contenedor */
+    background-attachment: fixed; /* Crea el efecto parallax */
+
+
+}
+
+.text-with-border {
+    color: white; /* Color del texto */
+    text-shadow: 
+        1px 1px 0px black,  /* Sombra a la derecha-abajo */
+        -1px 1px 0px black, /* Sombra a la izquierda-abajo */
+        1px -1px 0px black, /* Sombra a la derecha-arriba */
+        -1px -1px 0px black; /* Sombra a la izquierda-arriba */
+    font-size: 30px; /* Tamaño del texto */
+}
+
+.text-with-border-media {
+    color: white; /* Color del texto */
+    font-weight: bolder;
+    text-shadow: 
+        1px 1px 0px black,  /* Sombra a la derecha-abajo */
+        -1px 1px 0px black, /* Sombra a la izquierda-abajo */
+        1px -1px 0px black, /* Sombra a la derecha-arriba */
+        -1px -1px 0px black; /* Sombra a la izquierda-arriba */
+    font-size: 25px; /* Tamaño del texto */
+}
+
+
+.direccion{
+    text-decoration: none;
+}
+
+
+
+.bolder{
+    font-weight: bolder;
+}
+.titulo{
+
+    font-size:20pt;
+
+}
+
+
+.banner1{
+    background-image:url('/img/banner12.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Crea el efecto parallax */
+}
+
+.banner2{
+    background-image:url('/img/datacenter.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Crea el efecto parallax */
+}
+
+
+.hidden {
+    opacity: 0;
+  }
+  
+  .box {
+    margin: 100px 0; /* Agregar margen para simular el scroll */
+  }
+
+  .curved-div {
+    position: relative;
+    overflow: hidden;
+    
+}
+
+   .curved-div::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(241, 234, 233, 0.5); /* El color que quieres en medio del div */
+    clip-path: ellipse(120% 70% at 50% 0%); /* Forma curva */
+    z-index: 1;
+}
+
+
+.soporte1{
+    background-image: url('/img/soporte1.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen al tamaño del div */
+    background-position: center; /* Centra la imagen */
+    color: white; /* Cambia el color del texto si es necesario */
+
+    height: 700px; /* Establece una altura para el div */
+    position: relative; /* Necesario para manejar correctamente el contenido dentro */
+    transition: transform 0.5s ease-in-out;
+}
+
+.soporte2{
+    background-image: url('/img/soporte2.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen al tamaño del div */
+    background-position: center; /* Centra la imagen */
+    color: white; /* Cambia el color del texto si es necesario */
+    height: 700px; /* Establece una altura para el div */
+    position: relative; /* Necesario para manejar correctamente el contenido dentro */
+    transition: transform 0.5s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.soporte2 {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Estilo del contenido al hacer hover */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con transparencia */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+    text-align: center;
+}
+
+/* Aparecer el overlay al pasar el mouse */
+.soporte2:hover .overlay {
+    opacity: 1;
+}
+
+.overlay h4 {
+    color: black;
+    font-size: 1.2rem;
+}
+
+
+
+.soporte3{
+    background-image: url('/img/soporte3.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen al tamaño del div */
+    background-position: center; /* Centra la imagen */
+    color: white; /* Cambia el color del texto si es necesario */
+    height: 700px; /* Establece una altura para el div */
+    position: relative; /* Necesario para manejar correctamente el contenido dentro */
+    transition: transform 0.5s ease-in-out;
+}
+
+
+
+.soporte1:hover,
+.soporte2:hover,
+.soporte3:hover,
+.qualitrack:hover,
+.inventario:hover,
+.box:hover{
+    transform: scale(1.1);
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+
+.flotante{
+    position: fixed;
+    height: auto;
+    top: 0px;
+    left: 0px;
+    z-index: 10000;
+
+}
+
+
+
+.banner-form{
+    /* background-image:url('/img/datacenter.jpg'); */
+    background-color: rgb(212, 229, 244);
+}
+
+
+
+.qualitrack{
+    background-image: url('/img/quialitrack.png');
+    background-size: cover; /* Ajusta la imagen al tamaño del div */
+    background-position: center; /* Centra la imagen */
+    height: 700px; /* Establece una altura para el div */
+    position: relative; /* Necesario para manejar correctamente el contenido dentro */
+    transition: transform 0.5s ease-in-out;
+    padding: 30px;
+
+}
+
+.inventario{
+    background-image: url('img/inventario.jpg');
+    background-size: cover; /* Ajusta la imagen al tamaño del div */
+    background-position: center; /* Centra la imagen */
+    height: 700px; /* Establece una altura para el div */
+    position: relative; /* Necesario para manejar correctamente el contenido dentro */
+    transition: transform 0.5s ease-in-out;
+    padding: 30px;
+}
+
+.whatsapp{
+    position: fixed;
+    height: auto;
+    bottom: 10px;
+    right: 10px;
+    width: 80px;
+    height: 80px;
+    z-index: 10000;
+
+}
+
