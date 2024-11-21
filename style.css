@@ -188,8 +188,6 @@
 .soporte1:hover,
 .soporte2:hover,
 .soporte3:hover,
-.qualitrack:hover,
-.inventario:hover,
 .box:hover{
     transform: scale(1.1);
 }
