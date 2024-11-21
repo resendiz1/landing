@@ -328,5 +328,25 @@ a{
     transition: transform 0.5s ease-in-out;
 }
 
+.template1{
+    background-image: url('img/1.png'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen al tamaño del div */
+    background-position: center; /* Centra la imagen */
+    color: white; /* Cambia el color del texto si es necesario */
+    height: 700px; /* Establece una altura para el div */
+    position: relative; /* Necesario para manejar correctamente el contenido dentro */
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.template2{
+    background-image: url('img/template2.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen al tamaño del div */
+    background-position: center; /* Centra la imagen */
+    color: white; /* Cambia el color del texto si es necesario */
+    height: 700px; /* Establece una altura para el div */
+    position: relative; /* Necesario para manejar correctamente el contenido dentro */
+    transition: transform 0.5s ease-in-out;
+}
 
 
