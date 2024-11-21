@@ -36,6 +36,7 @@
 
 .text-with-border {
     color: white; /* Color del texto */
+    width: 100%;
     text-shadow: 
         1px 1px 0px black,  /* Sombra a la derecha-abajo */
         -1px 1px 0px black, /* Sombra a la izquierda-abajo */
